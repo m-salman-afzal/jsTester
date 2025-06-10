@@ -1,0 +1,58 @@
+{
+    "compilerOptions": {
+        // base
+        "target": "ESNext",
+        "verbatimModuleSyntax": false,
+
+        // building
+        "incremental": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "jsx": "preserve",
+        "allowImportingTsExtensions": true,
+        "importsNotUsedAsValues": "remove",
+
+        // formatting
+        "pretty": true,
+        "traceResolution": false,
+
+        // paths
+        "baseUrl": ".",
+        "paths": {},
+
+        // Strictness
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+        "exactOptionalPropertyTypes": true,
+        "strictNullChecks": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": false,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "checkJs": true,
+        "noImplicitAny": false,
+        "useUnknownInCatchVariables": true
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+}
