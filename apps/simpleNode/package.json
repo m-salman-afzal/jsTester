@@ -3,12 +3,20 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "build": "tsc",
+        "dev": "node test2.ts",
         "start": "node dist/test.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "packageManager": "pnpm@10.12.1"
+    "packageManager": "pnpm@10.12.1",
+    "dependencies": {
+        "fast-xml-parser": "5.2.5",
+        "googleapis": "159.0.0",
+        "request": "2.88.2",
+        "sharp": "0.34.4"
+    }
 }

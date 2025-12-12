@@ -6,7 +6,8 @@
     "scripts": {
         "prepare": "husky",
         "viteReact": "pnpm --filter vite-react dev",
-        "nextjs": "pnpm --filter nextjs dev"
+        "nextjs": "pnpm --filter nextjs dev",
+        "simpleNode": "pnpm --filter simple-node dev"
     },
     "lint-staged": {
         "**/*": [
